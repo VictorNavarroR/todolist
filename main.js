@@ -58,8 +58,8 @@ function drawTodoList() {
             messages.innerHTML = '<p>You have pending todos to be completed.<p>';
 
         });
-        if(todos.every( elem => elem.done === true)) {
-            messages.innerHTML = '<p>All todos are completed!<p>';
+        if(todos.length && todos.every( elem => elem.done === true)) {
+               messages.innerHTML = '<p>All todos are completed!<p>';
         }
     }
 }
