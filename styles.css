@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(214, 214, 214);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 100%;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    z-index: 0;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 10px 0;
+    display: block;
+    width: 94%;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  
+  .empty {
+    color: darkslategrey;
+  }
+  .li-container__ul li{
+    position: relative;
+    padding: 0 12px;
+    cursor: pointer;
+  }
+  .li-container__ul li button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e31746;
+    border: none;
+    color: white;
+    padding: 14.5px 0;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    display: block;
+    width: 8%;
+  }
+  .li-container__ul li button:hover{
+    background-color: #940f2e;
+  }
